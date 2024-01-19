@@ -3,9 +3,9 @@ import 'package:quiz_app/Start_Screen.dart';
 
 void main() {
   runApp(
-    const MaterialApp(
+    MaterialApp(
       home: Scaffold(
-        body: StartScreen(),
+        body: Container(child: const StartScreen()),
       ),
     ),
   );
